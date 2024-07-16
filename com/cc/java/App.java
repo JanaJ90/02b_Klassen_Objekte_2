@@ -29,7 +29,7 @@ public class App {
 
         System.out.println("----------------------------");
 
-        Cat cat2 = new Cat(null, null, 0);
+        Cat cat2 = new Cat("Alonzo", "black", 35);
         output("Blick von aussen: " + cat2);
         output("Blick von innen: " + cat2.getInstanceVariable());
 
