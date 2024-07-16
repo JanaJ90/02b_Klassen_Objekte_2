@@ -22,6 +22,10 @@ public class App {
         output(cat.furColor);
         output(Integer.toString(cat.age)); // Explizite Typumwandlung
 
+        cat.furColor = "grey";
+        output(cat.furColor);
+
+
 
         System.out.println("----------------------------");
 
