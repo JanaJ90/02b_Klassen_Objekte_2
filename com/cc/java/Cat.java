@@ -15,6 +15,36 @@ public class Cat {
         this.age = age;
     }
 
+// Getter
+    public String getName() {
+        return name;
+    }
+
+// Setter- Einrichter
+    public void setName(String name) {
+        this.name = name;
+    }
+
+
+    public String getFurColor() {
+        return furColor;
+    }
+
+
+    public void setFurColor(String furColor) {
+        this.furColor = furColor;
+    }
+
+
+    public int getAge() {
+        return age;
+    }
+
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
 
     // Rückgabetyp -- Cat
     public Cat getInstanceVariable(){

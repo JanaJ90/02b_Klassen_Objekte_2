@@ -18,12 +18,12 @@ public class App {
        
 
         // Werte ausgeben
-        output(cat.name);
-        output(cat.furColor);
-        output(Integer.toString(cat.age)); // Explizite Typumwandlung
+        output(cat.getName());
+        output(cat.getFurColor());
+        output(Integer.toString(cat.getAge())); // Explizite Typumwandlung
 
-        cat.furColor = "grey";
-        output(cat.furColor);
+        // cat.furColor = "grey";
+        // output(cat.furColor);
 
 
 
@@ -34,17 +34,17 @@ public class App {
         output("Blick von innen: " + cat2.getInstanceVariable());
 
         // Werte setzen
-        cat2.name = "Alonzo";
-        cat2.furColor = "grey";
-        cat2.age = 35;
+        // cat2.name = "Alonzo";
+        // cat2.furColor = "grey";
+        // cat2.age = 35;
 
         // Werte ausgeben
-        output(cat2.name);
-        output(cat2.furColor);
-        output(Integer.toString(cat2.age)); // Explizite Typumwandlung
+        output(cat2.getName());
+        output(cat2.getFurColor());
+        output(Integer.toString(cat2.getAge())); // Explizite Typumwandlung
 
-
-
+        cat2.setAge(36);
+        output(Integer.toString(cat2.getAge())); // Explizite Typumwandlung))
     }
 
       // Statische Methode, die in der Klasse ausgeführt wird ...
